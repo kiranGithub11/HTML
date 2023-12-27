@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+  min-height: 100vh;
+}
+
+#heading, #paragraph, #image, #color, #marquee, #text, #lists {
+   scroll-margin-top: 3.1rem;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    background-color: #000;
+}
+
+nav div {
+    width: 25%;
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 20px;
+    color: #fff;
+}
+
+nav ul {
+    width: 75%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+nav ul li a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover{
+    color: greenyellow;
+    font-size: 1.1rem;
+}
+
+nav ul li a:active{
+    color: red;
+}
+
+/* nav ul li a:visited{
+    color: #0d45ff;
+} */
+  
+
+/* nav {
+    margin-bottom: 4rem;
+}
+
+nav p {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+nav ul li a {
+    display: block;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: transparent;
+    color: #000;
+    padding: 1rem 2rem;
+}
+
+nav ul li a:hover {
+    color:white;
+    background-color: #000;
+} */
+
+
+
+.heading .h1{
+    font-size: 3rem;
+    color: blueviolet;
+}
+
+.paragraph h1 {
+    font-size: 3rem;
+    color: rgb(81, 157, 63);
+}
+
+.paragraph p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.paragraph .link-margin {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.paragraph .link-margin a{
+    font-size: 2rem;
+    text-decoration: none; 
+    color: blue  
+}
+
+.paragraph .link-margin a:hover {
+    color: black;
+}
+
+.paragraph .link-margin a:visited {
+    color: gray
+}
+
+.paragraph .link-margin a:active {
+    color: red;
+}
+
+.image .content_p1 {
+    width: 80%;
+    margin: 0 auto;
+    background-image: url(https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_1280.png);
+    background-size: cover;
+    color: #fff;
+    background-repeat: no-repeat;
+}
+.image .content_p2 {
+    width: 80%;
+    margin: 0 auto;
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/12/22/35/snowman-1090261_1280.jpg);
+    color: #000;
+    background-repeat: repeat-x;
+    background-size: 300px 300px;
+}
+.image .content_p3 {
+    width: 80%;
+    margin: 0 auto;
+    background-image: url(https://cdn.pixabay.com/photo/2019/07/25/17/09/camp-4363073_1280.png); 
+    color: #000000;
+    background-repeat: repeat-y;
+    background-size: 300px 200px;
+}
+
+.image h1 {
+    font-size: 3rem;
+    color: rgb(255, 70, 153);
+}
+
+.image .line1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image .line2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.color .colorh1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #a208a2;
+}
+
+.color h1 {
+    margin-bottom: 1rem;
+}
+
+
+.marquee h1 {
+    font-size: 3rem;
+    color: rgb(130, 125, 8);
+}
+
+.marquee .mq {
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(235, 121, 140);
+}
+
+.if1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.if2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text h1 {
+    font-size: 3rem;
+    color: rgb(229, 133, 50);
+}
+
+.text .left{
+    margin-left: 3rem;
+}
+
+.lists h1{
+    font-size: 3rem;
+    color: rgb(8, 92, 126);
+}
+
+.lists ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3rem;
+}
+
+.lists ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3rem;
+}
+
+.lists dl {
+    margin-left: 3rem;
+}
