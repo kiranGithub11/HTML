@@ -67,9 +67,19 @@ nav ul li a:active{
 
 /* heading section styles */
 
-.heading .h1{
+.heading .fonth1{
     font-size: 3rem;
     color: blueviolet;
+}
+
+.heading .heading-margin {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading .heading-margin h1{
+    font-size: 1.8rem;
 }
 
 /* paragraph section styles */
@@ -84,6 +94,16 @@ nav ul li a:active{
     margin: 0 auto;
 }
 
+.paragraph p .span1 {
+    background-color: orangered;
+}
+
+.paragraph p .span2 {
+    background-color: greenyellow;
+}
+
+/* links styles */
+
 .paragraph .link-margin {
     width: 80%;
     margin: 0 auto;
@@ -94,11 +114,12 @@ nav ul li a:active{
 .paragraph .link-margin a{
     font-size: 2rem;
     text-decoration: none; 
-    color: blue  
+    color: blue;  
 }
 
 .paragraph .link-margin a:hover {
-    color: black;
+    color: rgb(255, 0, 0);
+    font-size: 2.1rem;
 }
 
 .paragraph .link-margin a:visited {
@@ -106,7 +127,7 @@ nav ul li a:active{
 }
 
 .paragraph .link-margin a:active {
-    color: red;
+    color: rgb(0, 34, 255);
 }
 
 /* background images styles */
