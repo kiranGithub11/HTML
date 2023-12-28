@@ -1,3 +1,4 @@
+/*CSS-Reset*/
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +17,8 @@ body {
 #heading, #paragraph, #image, #color, #marquee, #text, #lists {
    scroll-margin-top: 3.1rem;
 }
+
+/* NavBar Styles*/
 
 nav {
     position: sticky;
@@ -62,61 +65,14 @@ nav ul li a:active{
     color: red;
 }
 
-/* nav ul li a:visited{
-    color: #0d45ff;
-} */
-  
-
-/* nav {
-    margin-bottom: 4rem;
-}
-
-nav p {
-    width: 100%;
-    margin: 0 auto;
-    font-size: 5rem;
-    text-align: center;
-    padding: 1rem;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    margin: 0 auto;
-}
-
-nav ul li {
-    display: block;
-    width: 100%;
-    text-align: center;
-    border: 2px solid red;
-    cursor: pointer;
-}
-
-nav ul li a {
-    display: block;
-    font-size: 1.5rem;
-    text-decoration: none;
-    background-color: transparent;
-    color: #000;
-    padding: 1rem 2rem;
-}
-
-nav ul li a:hover {
-    color:white;
-    background-color: #000;
-} */
-
-
+/* heading section styles */
 
 .heading .h1{
     font-size: 3rem;
     color: blueviolet;
 }
+
+/* paragraph section styles */
 
 .paragraph h1 {
     font-size: 3rem;
@@ -153,6 +109,8 @@ nav ul li a:hover {
     color: red;
 }
 
+/* background images styles */
+
 .image .content_p1 {
     width: 80%;
     margin: 0 auto;
@@ -178,6 +136,8 @@ nav ul li a:hover {
     background-size: 300px 200px;
 }
 
+/* images styles */
+
 .image h1 {
     font-size: 3rem;
     color: rgb(255, 70, 153);
@@ -192,6 +152,8 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
 }
+
+/* Color section styles */
 
 .middle {
     width: 80%;
@@ -208,6 +170,7 @@ nav ul li a:hover {
     margin-bottom: 1rem;
 }
 
+/* marquee and iframes styles */
 
 .marquee h1 {
     font-size: 3rem;
@@ -230,6 +193,8 @@ nav ul li a:hover {
     justify-content: space-evenly;
 }
 
+/* text formatting section styles */
+
 .text h1 {
     font-size: 3rem;
     color: rgb(229, 133, 50);
@@ -238,6 +203,8 @@ nav ul li a:hover {
 .text .left{
     margin-left: 3rem;
 }
+
+/* list section styles */
 
 .lists h1{
     font-size: 3rem;
@@ -261,3 +228,12 @@ nav ul li a:hover {
 .lists dl {
     margin-left: 3rem;
 }
+
+/* footer styles */
+
+ .footer {
+    text-align: center; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    background-color: antiquewhite;
+ }
