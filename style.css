@@ -153,9 +153,9 @@ nav li:first-child {
         display: block;
     }
 
-    /* #heading, #paragraph, #image, #color, #marquee, #text, #lists {
+    #heading, #paragraph, #image, #color, #marquee, #text, #lists {
         scroll-margin-top: 0;
-     } */
+     }
 }
 
 @media(max-width: 476px) {
