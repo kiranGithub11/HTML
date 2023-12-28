@@ -13,10 +13,11 @@
 <body>
   <!-- Nav Bar Begins -->
   <nav>
-    <div>
+    <!-- <div>
       HTML
-    </div>
-    <ul>
+    </div> -->
+    <ul class="sidebar">
+      <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
       <li><a href="#heading">Headings</a></li>
       <li><a href="#paragraph">Paragraphs</a></li>
       <li><a href="#image">Images</a></li>
@@ -24,6 +25,17 @@
       <li><a href="#marquee">Marquees & Iframes</a></li>
       <li><a href="#text">Text Formating Tags</a></li>
       <li><a href="#lists">Lists</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">HTML</a></li>
+      <li class="hideOnMobile"><a href="#heading">Headings</a></li>
+      <li class="hideOnMobile"><a href="#paragraph">Paragraphs</a></li>
+      <li class="hideOnMobile"><a href="#image">Images</a></li>
+      <li class="hideOnMobile"><a href="#color">Colors</a></li>
+      <li class="hideOnMobile"><a href="#marquee">Marquees & Iframes</a></li>
+      <li class="hideOnMobile"><a href="#text">Text Formating Tags</a></li>
+      <li class="hideOnMobile"><a href="#lists">Lists</a></li>
+      <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
     </ul>
   </nav>
   <!-- Nav Bar Begins -->
@@ -53,7 +65,7 @@
   <section id="paragraph" class="paragraph">
     <h1>Paragraph Tags</h1>
     <br>
-    <p>This is a Paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aliquid repudiandae error nihil delectus non quas accusamus maiores reiciendis <span class="span1">This Is Colored By Using Span Tag</span>  iure magnam natus aut ratione fugit ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis deleniti necessitatibus dolorem, harum, aliquam quam earum, veniam voluptate quidem vel pariatur assumenda repudiandae accusantium a quia voluptatum qui quis consectetur.</p>
+    <p>This is a Paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aliquid repudiandae error nihil delectus non quas accusamus maiores reiciendis <span class="span1">This Is Colored By Using Span Tag</span>  iure magnam natus aut ratione fugit ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis deleniti necessitatibus dolorem, harum, aliquam quam earum, veniam voluptate <span class="span3">Hey! there i used span tag here</span> accusantium a quia voluptatum qui quis consectetur.</p>
     <br>
     <p>This is another Paragraph. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic eveniet voluptate dicta inventore. Quo odio similique mollitia repellat in ipsa exercitationem veniam molestias! <span class="span2">This is another span tag</span> recusandae voluptatum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur commodi facere excepturi molestias perspiciatis sequi libero, nostrum nisi maiores eum? Quaerat voluptate aspernatur voluptatem reiciendis error vel dicta incidunt! Tempora.</p>
     <br>
@@ -356,7 +368,8 @@
     <a href="#" class="back">Back To Top</a>
   </div>
   <footer class="footer">
-    @TEKSACADEMY
+    <a href="https://teksacademy.com">@TEKSACADEMY</a>
   </footer>
 </body>
+<script src="main.js"></script>
 </html>

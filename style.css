@@ -12,6 +12,7 @@ html {
 
 body {
   min-height: 100vh;
+  background-color: #f4f4f4;
 }
 
 #heading, #paragraph, #image, #color, #marquee, #text, #lists {
@@ -20,10 +21,10 @@ body {
 
 /* NavBar Styles*/
 
-nav {
+/* nav {
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,6 +64,104 @@ nav ul li a:hover{
 
 nav ul li a:active{
     color: red;
+} */
+
+/* new nav styles */
+
+nav {
+    position: sticky;
+    top: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,129,170,1) 100%, rgba(0,212,255,1) 100%);
+    box-shadow: 7px 7px 4px rgba(72, 72, 72, 0.2);
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 50px;
+
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+nav a:hover {
+    background-color: #f0f0f0;
+    color: #000000;
+
+}
+
+nav li:first-child {
+    margin-right: auto;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+    color: #000;
+}
+
+.sidebar a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.menu-button {
+    display: none;
+}
+
+@media(max-width: 800px) {
+    .hideOnMobile{
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    #heading, #paragraph, #image, #color, #marquee, #text, #lists {
+        scroll-margin-top: 0;
+     }
+}
+
+@media(max-width: 476px) {
+    .sidebar {
+        width: 100%;
+    }
 }
 
 /* heading section styles */
@@ -100,6 +199,12 @@ nav ul li a:active{
 
 .paragraph p .span2 {
     background-color: greenyellow;
+}
+
+.paragraph p .span3 {
+    background-color: purple;
+    color: white;
+    font-size: 22px;
 }
 
 /* links styles */
@@ -157,6 +262,29 @@ nav ul li a:active{
     background-size: 300px 200px;
 }
 
+@media(max-width: 800px) {
+    .image .content_p1 {
+        background-size: 300px 400px;
+        width: 300px;
+        height: 400px;
+        overflow: hidden;
+    }
+
+    .image .content_p2 {
+        background-size: 70px 200px;
+        width: 300px;
+        height: 400px;
+        overflow: hidden;
+    }
+
+    .image .content_p3 {
+        background-size: 70px 50px;
+        width: 300px;
+        height: 400px;
+        overflow: hidden;
+    }
+}
+
 /* images styles */
 
 .image h1 {
@@ -172,6 +300,20 @@ nav ul li a:active{
 .image .line2 {
     display: flex;
     justify-content: space-between;
+}
+
+@media(max-width: 800px) {
+    .image .line1 {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .image .line2 {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
 }
 
 /* Color section styles */
@@ -212,6 +354,23 @@ nav ul li a:active{
 .if2 {
     display: flex;
     justify-content: space-evenly;
+}
+
+@media(max-width: 800px) {
+    .if1 {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 400;
+        height: 300;
+    }
+    .if2 {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 400;
+        height: 300;
+    }
 }
 
 /* text formatting section styles */
@@ -256,5 +415,18 @@ nav ul li a:active{
     text-align: center; 
     margin-top: 20px; 
     margin-bottom: 20px; 
-    background-color: antiquewhite;
+    background-color: rgb(255, 1, 145);
+    display: block;
+ }
+
+ .footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+ }
+
+ .footer a:hover {
+    background-color: rgb(205, 185, 196);
+    color: rgb(255, 0, 179)
  }
