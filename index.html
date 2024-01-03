@@ -18,6 +18,7 @@
     </div> -->
     <ul class="sidebar">
       <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+      <li onclick="closeList()"><a href="#table">Tables</a></li>
       <li onclick="closeList()"><a href="#heading">Headings</a></li>
       <li onclick="closeList()"><a href="#paragraph">Paragraphs</a></li>
       <li onclick="closeList()"><a href="#image">Images</a></li>
@@ -28,6 +29,7 @@
     </ul>
     <ul>
       <li><a href="#">HTML</a></li>
+      <li class="hideOnMobile"><a href="#table">Tables</a></li>
       <li class="hideOnMobile"><a href="#heading">Headings</a></li>
       <li class="hideOnMobile"><a href="#paragraph">Paragraphs</a></li>
       <li class="hideOnMobile"><a href="#image">Images</a></li>
@@ -40,6 +42,83 @@
   </nav>
   <!-- Nav Bar Begins -->
   <hr>
+    <!-- Table Section Begins -->
+    <section id="table" class="table">
+      <h1 class="tableh1">Tables</h1>
+      <br>
+
+      <div class="table-container">
+        <table>
+          <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name </th>
+            <th>Age</th>
+            <th>Nationality</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Cristiano</td>
+            <td>Ronaldo</td>
+            <td>38</td>
+            <td>Portugal</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Kylian</td>
+            <td>Mbappe</td>
+            <td>24</td>
+            <td>France</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Eriling</td>
+            <td>Haaland</td>
+            <td>23</td>
+            <td>Norway</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Jude</td>
+            <td>Bellingham</td>
+            <td>22</td>
+            <td>England</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Alejandro</td>
+            <td>Gernacho</td>
+            <td>19</td>
+            <td>Argentina</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Rasmus</td>
+            <td>Hojlund</td>
+            <td>20</td>
+            <td>Denmark</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Rafael</td>
+            <td>Leao</td>
+            <td>23</td>
+            <td>Portugal</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Marcus</td>
+            <td>Rashford</td>
+            <td>26</td>
+            <td>England</td>
+          </tr>
+        </table>
+      </div>
+
+      <br>
+    </section>
+    <!-- table section ends -->
+    <hr>
   <!-- Heading Section Begins -->
   <section id="heading" class="heading">
     <h1 class="fonth1">Heading Tags</h1>
@@ -368,7 +447,7 @@
     <a href="#" class="back">Back To Top</a>
   </div>
   <footer class="footer">
-    <a href="https://teksacademy.com">@TEKSACADEMY</a>
+    <h2>Designed By <span>Kiran</span></h2>
   </footer>
 </body>
 <script src="main.js"></script>

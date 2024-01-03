@@ -8,63 +8,17 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 body {
-  min-height: 100vh;
-  background-color: #f4f4f4;
+min-height: 100vh;
+background-color: #f4f4f4;
 }
 
-#heading, #paragraph, #image, #color, #marquee, #text, #lists {
-   scroll-margin-top: 3.1rem;
+#heading, #paragraph, #image, #color, #marquee, #text, #lists, #table {
+scroll-margin-top: 3.1rem;
+margin: 0 10px;
 }
-
-/* NavBar Styles*/
-
-/* nav {
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 4rem;
-    background-color: #000;
-}
-
-nav div {
-    width: 25%;
-    font-size: 3rem;
-    font-weight: 700;
-    padding: 20px;
-    color: #fff;
-}
-
-nav ul {
-    width: 75%;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 1rem;
-}
-
-
-nav ul li a{
-    font-size: 1rem;
-    text-decoration: none;
-    color: #fff;
-}
-
-nav ul li a:hover{
-    color: greenyellow;
-    font-size: 1.1rem;
-}
-
-nav ul li a:active{
-    color: red;
-} */
 
 /* new nav styles */
 
@@ -155,13 +109,51 @@ nav li:first-child {
 
     #heading, #paragraph, #image, #color, #marquee, #text, #lists {
         scroll-margin-top: 0;
-     }
+    }
 }
 
 @media(max-width: 476px) {
     .sidebar {
         width: 100%;
     }
+}
+
+/* tables section styles */
+
+.table .tableh1 {
+    font-size: 3rem;
+    color: red;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-container table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.table-container table tr td {
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+.table-container table tr th {
+    background-color: #019f80;
+    color: #ffffff;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.table-container table tr td:hover {
+    background-color: #536a68;
+    color: #fff;
+    cursor: pointer;
 }
 
 /* heading section styles */
@@ -413,22 +405,16 @@ nav li:first-child {
 
 /* footer styles */
 
- .footer {
+.footer {
     text-align: center; 
     margin-top: 20px; 
     margin-bottom: 20px; 
-    background-color: rgb(255, 1, 145);
+    background-color: #fff;
     display: block;
- }
+}
 
- .footer a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    display: block;
- }
+.footer h2 span {
+    color: #FF046F;
+}
 
- .footer a:hover {
-    background-color: rgb(205, 185, 196);
-    color: rgb(255, 0, 179)
- }
+
