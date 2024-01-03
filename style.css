@@ -123,6 +123,7 @@ nav li:first-child {
 .table .tableh1 {
     font-size: 3rem;
     color: red;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .table-container {
@@ -161,6 +162,7 @@ nav li:first-child {
 .heading .fonth1{
     font-size: 3rem;
     color: blueviolet;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .heading .heading-margin {
@@ -178,6 +180,7 @@ nav li:first-child {
 .paragraph h1 {
     font-size: 3rem;
     color: rgb(81, 157, 63);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .paragraph p {
@@ -282,6 +285,7 @@ nav li:first-child {
 .image h1 {
     font-size: 3rem;
     color: rgb(255, 70, 153);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .image .line1 {
@@ -321,6 +325,7 @@ nav li:first-child {
     font-size: 3rem;
     font-weight: 700;
     color: #a208a2;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .color h1 {
@@ -332,6 +337,7 @@ nav li:first-child {
 .marquee h1 {
     font-size: 3rem;
     color: rgb(130, 125, 8);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .marquee .mq {
@@ -372,6 +378,7 @@ nav li:first-child {
 .text h1 {
     font-size: 3rem;
     color: rgb(229, 133, 50);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .text .left{
@@ -383,6 +390,7 @@ nav li:first-child {
 .lists h1{
     font-size: 3rem;
     color: rgb(8, 92, 126);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .lists ul {
@@ -411,10 +419,12 @@ nav li:first-child {
     margin-bottom: 20px; 
     background-color: #fff;
     display: block;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .footer h2 span {
     color: #FF046F;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 
