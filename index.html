@@ -47,6 +47,160 @@
       <h1 class="tableh1">Tables</h1>
       <br>
 
+      <div class="table-container2">
+        <table>
+
+          <!-- Row 1-->
+          <tr>
+              <th>Header Column 1</th>
+              <th>Header Column 2</th>
+              <th>Header Column 3</th>
+              <th>Header Column 4</th>
+          </tr>
+  
+          <!-- Row 2-->
+          <tr>
+              <td>Row 2 - Item 1</td>
+              <td>Row 2 - Item 2</td>
+              <td rowspan="2"> <span class="bold">Row 2: Nested Table 1</span>
+                  <br><br>
+                  <table>
+                      <tr>
+                          <th>Row 1 Header</th>
+                          <td>item</td>
+                      </tr>
+                      <tr>
+                          <th>Row 2 Header</th>
+                          <td>item</td>
+                      </tr>
+                      <tr>
+                          <th>Row 3 Header</th>
+                          <td>item</td>
+                      </tr>
+                  </table>
+              </td>
+              <td>Row 2 - Item 4 <br> A Second line</td>
+          </tr>
+  
+          <!-- Row 3-->
+          <tr>
+              <td>
+                  <span class="bold">Row 3: Nested Table 2</span> <br><br>
+                  <table>
+                      <tr>
+                          <th>Row 1 Header</th>
+                          <td>item</td>
+                      </tr>
+                      <tr>
+                          <th>Row 2 Header</th>
+                          <td>item</td>
+                      </tr>
+                  </table>
+              </td>
+              <td>Row 3 - Item 2</td>
+              <td rowspan="2">Row 3 - Item 3</td>
+          </tr>
+  
+          <!-- Row 4-->
+          <tr>
+              <td>Row 4 - Item 1</td>
+              <td>Row 4 - Item 2</td>
+              <td>Row 4 - Item 3</td>
+          </tr>
+  
+          <!-- Row 5-->
+          <tr>
+              <td colspan="4" style="text-align: left;">Row 5 - Last row of Outer Table </td>
+          </tr>
+  
+      </table>
+      </div>
+
+      <br><br>
+      
+      <div class="table-container3">
+        <table>
+          <colgroup>
+              <col span="2" style="background-color: #f6f66f">
+              <col span="4" style="background-color: rgb(147, 255, 255);">
+          </colgroup>
+  
+          <tr>
+              <th class="white-background">
+                  <span style="margin: 0; padding: 0; background-color: rgb(144, 144, 144);">ACC</span>
+              </th>
+              <th class="white-background"></th>
+              <div class="aliceblue">
+                  <th>Column <br> header 1a</th>
+                  <th>Column <br> header 1b</th>
+                  <th>Column <br> header 1c</th>
+                  <th>Column <br> header 1d</th>
+              </div>
+          </tr>
+          <tr>
+              <th class="white-background"></th>
+              <th class="white-background"></th>
+              <th>Column <br> header 2a</th>
+              <th>Column <br> header 2b</th>
+              <th>Column <br> header 2c</th>
+              <th>Column <br> header 2d</th>
+          </tr>
+          <tr>
+              <th rowspan="4">Row header 1a</th>
+              <th>Row header 2a</th>
+              <td class="white-background">Data col 1 <br> row 1</td>
+              <td class="white-background">Data col 2 <br> row 1</td>
+              <td class="white-background">Data col 3 <br> row 1</td>
+              <td class="white-background">Data col 4 <br> row 1</td>
+          </tr>
+          <tr>
+              <th>Row header 2b</th>
+              <td class="white-background">Data col 1 <br> row 2</td>
+              <td class="white-background">Data col 2 <br> row 2</td>
+              <td class="white-background">Data col 3 <br> row 2</td>
+              <td class="white-background">Data col 4 <br> row 2</td>
+          </tr>
+          <tr>
+              <th>Row header 2c</th>
+              <td class="white-background">Data col 1 <br> row 3</td>
+              <td class="white-background">Data col 2 <br> row 3</td>
+              <td class="white-background">Data col 3 <br> row 3</td>
+              <td class="white-background">Data col 4 <br> row 3</td>
+          </tr>
+          <tr>
+              <th colspan="3">Summary Sub-Total</th>
+              <td class="white-background">Total 1a</td>
+              <td class="white-background">Total 2a</td>
+          </tr>
+          <tr>
+              <th rowspan="3">Row header 1b</th>
+              <th>Row header 2d</th>
+              <td class="white-background">Data col 1 <br>row 1</td>
+              <td class="white-background">Data col 2 <br>row 1</td>
+              <td class="white-background">Data col 3 <br>row 1</td>
+              <td class="white-background">Data col 4 <br>row 1</td>
+          </tr>
+          <tr>
+              <th>Row header 2e</th>
+              <td class="white-background">Data col 1 <br>row 2</td>
+              <td class="white-background">Data col 2 <br>row 2</td>
+              <td class="white-background">Data col 3 <br>row 2</td>
+              <td class="white-background">Data col 4 <br>row 2</td>
+          </tr>
+          <tr>
+              <th colspan="3">Summary Sub-Total</th>
+              <td class="white-background">Total 1b</td>
+              <td class="white-background">Total 2b</td>
+          </tr>
+          <tr>
+              <th colspan="4">Grand Total</th>
+              <td class="white-background">Grand-Total</td>
+              <td class="white-background">Grand-Total</td>
+          </tr>
+      </table>
+      </div> 
+      <br><br>
+
       <div class="table-container">
         <table>
           <tr>
@@ -334,7 +488,7 @@
     <br>
     <br>
   </section>
-     <!-- Marquee and Iframes Sections Begins -->
+    <!-- Marquee and Iframes Sections Begins -->
   <hr>
   <!-- Text Formatting Section Begin s-->
   <section id="text" class="text">

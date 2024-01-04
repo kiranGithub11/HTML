@@ -120,6 +120,75 @@ nav li:first-child {
 
 /* tables section styles */
 
+.table-container2, .table-container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-container2 table {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.table-container3 table {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.table-container2 table {
+    background-color: #fff;
+}
+
+.table-container2 td, 
+.table-container2 th, 
+.table-container2 tr {
+    border: 1px solid #4e4e4e;
+    padding: 8px;
+    text-align: center;
+}
+
+.table-container2 .bold {
+    font-weight: 700;
+    color: #000;
+}
+
+.table-container2 th:hover {
+    background-color: #c2c2c2;
+    cursor: pointer;
+}
+
+.table-container2 tr:hover {
+    background-color: rgb(102, 102, 102);
+}
+
+.table-container2 td:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+
+.table-container3 table {
+    border-collapse: collapse;
+}
+
+.table-container3 tr, 
+.table-container3 td, 
+.table-container3 th {
+    border: 1px solid #4e4e4e;
+    padding: 8px;
+    text-align: center;
+}
+
+.table-container3 .white-background {
+    background-color: #fff;
+}
+
+.table-container3 .white-background:hover {
+    background-color: #c2c2c2;
+    cursor: pointer;
+}
+
 .table .tableh1 {
     font-size: 3rem;
     color: red;
